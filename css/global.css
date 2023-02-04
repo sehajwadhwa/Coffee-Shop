@@ -2,3 +2,27 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.navigation {
+  font-size: 21px;
+  font-weight: 400;
+}
+.navigation li {
+  list-style-type: none;
+  text-decoration: underline;
+}
+.navigation a {
+  text-decoration: none;
+}

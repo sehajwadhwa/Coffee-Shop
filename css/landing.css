@@ -1,0 +1,38 @@
+.navigation {
+  background-color: #fff0ed;
+}
+.navigation img {
+  width: 50px;
+}
+.main {
+  background-color: #fff0ed;
+}
+.button {
+  background-color: #5bacc3;
+  color: white;
+  font-size: 21px;
+  border: 0px;
+}
+.products-card--price {
+  color: #5bacc3;
+  font-size: 33px;
+  font-weight: 400;
+}
+.discount {
+  background-color: #393939;
+  color: white;
+}
+.discount p {
+  font-size: 45px;
+  font-weight: 400;
+}
+.footer {
+  background-color: #fff0ed;
+}
+
+.footer-hours--para {
+  font-weight: bold;
+}
+.social img {
+  width: 50px;
+}
