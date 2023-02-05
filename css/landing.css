@@ -2,7 +2,7 @@
   background-color: #fff0ed;
 }
 .navigation img {
-  width: 50px;
+  width: 7.3%;
 }
 .main {
   background-color: #fff0ed;
@@ -10,12 +10,12 @@
 .button {
   background-color: #5bacc3;
   color: white;
-  font-size: 21px;
-  border: 0px;
+  font-size: 1.31rem;
+  border: 0rem;
 }
 .products-card--price {
   color: #5bacc3;
-  font-size: 33px;
+  font-size: 2.06rem;
   font-weight: 400;
 }
 .discount {
@@ -23,7 +23,7 @@
   color: white;
 }
 .discount p {
-  font-size: 45px;
+  font-size: 2.81rem;
   font-weight: 400;
 }
 .footer {
@@ -34,5 +34,5 @@
   font-weight: bold;
 }
 .social img {
-  width: 50px;
+  width: 5%;
 }

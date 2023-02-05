@@ -4,19 +4,19 @@ body {
 }
 h1,
 h2 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 300;
 }
 h3 {
-  font-size: 33px;
+  font-size: 2.06rem;
   font-weight: 300;
 }
 p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 .navigation {
-  font-size: 21px;
+  font-size: 1.31rem;
   font-weight: 400;
 }
 .navigation li {
