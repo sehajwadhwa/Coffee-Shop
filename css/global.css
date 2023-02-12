@@ -1,6 +1,9 @@
 body {
   font-family: "Open Sans";
   font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 h1,
 h2 {
@@ -18,11 +21,32 @@ p {
 .navigation {
   font-size: 1.31rem;
   font-weight: 400;
+  background-color: #fff0ed;
+  display: flex;
+  align-items: center;
 }
-.navigation li {
+.navigation img {
+  width: auto;
+}
+.navigation__list {
   list-style-type: none;
   text-decoration: underline;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.navigation__list--link {
+  padding: 10px;
+  text-decoration: none;
 }
 .navigation a {
   text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* to match the mockup to nearest possible. Style guide instructons doesn't match the mockup. */
+.navigation h2 {
+  font-size: 2.5rem;
+  color: black;
 }
