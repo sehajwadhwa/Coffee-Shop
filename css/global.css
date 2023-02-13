@@ -1,8 +1,8 @@
 body {
   font-family: "Open Sans";
   font-weight: 400;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 h1,
@@ -28,6 +28,10 @@ p {
 .navigation img {
   width: auto;
 }
+.navigation__box {
+  display: flex;
+  justify-content: space-evenly;
+}
 .navigation__list {
   list-style-type: none;
   text-decoration: underline;
@@ -36,13 +40,19 @@ p {
   width: 100%;
 }
 .navigation__list--link {
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
 }
-.navigation a {
+
+.navigation__list--color {
+  color: #5bacc3;
+
   text-decoration: none;
-  color: black;
+}
+.navigation--text {
+  text-decoration: none;
   cursor: pointer;
+  color: black;
 }
 
 /* to match the mockup to nearest possible. Style guide instructons doesn't match the mockup. */

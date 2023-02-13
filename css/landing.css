@@ -1,32 +1,93 @@
 .main {
   background-color: #fff0ed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.main__image {
+  padding-right: 3.125rem;
+}
+.main__content {
+  padding: 7rem 30rem 5rem 7rem;
+}
+.blankspace {
+  padding: 7rem 6.25rem 7rem 20rem;
+}
+.products {
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+}
+.products__heading {
+  text-align: center;
+  margin: 0;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.products__card {
+  border-color: rgba(0, 0, 0, 0.25);
+  margin: 50px;
+  padding: 120px 60px 100px 80px;
+  border-radius: 10px;
+  width: 330px;
+  height: 440px;
+  box-shadow: 0 5px 9px -1px;
+}
+.products__card__button {
+  display: flex;
+  justify-content: center;
 }
 .button {
   background-color: #5bacc3;
   color: white;
   font-size: 1.31rem;
   border: 0rem;
+  width: 180px;
+  padding: 20px;
 }
-.products-card--price {
+.products__card__price {
   color: #5bacc3;
   font-size: 2.06rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .discount {
+  margin: 130px 40px;
+  display: flex;
+  justify-content: center;
+}
+.discount__box {
+  width: 90%;
   background-color: #393939;
   color: white;
 }
-.discount p {
+.discount__box p {
+  text-align: center;
   font-size: 2.81rem;
   font-weight: 400;
+}
+.discount__box span {
+  font-weight: 800;
 }
 .footer {
   background-color: #fff0ed;
 }
-
-.footer-hours--para {
-  font-weight: bold;
+.footer__box {
+  display: flex;
+  align-items: center;
 }
-.social img {
-  width: 5%;
+.footer__address {
+  padding: 50px 160px;
+}
+.footer__hours {
+  padding-right: 160px;
+}
+.footer__social {
+  padding-left: 30px;
+}
+.footer__social img {
+  width: 50px;
+}
+.footer__hours__para {
+  font-weight: bold;
 }
