@@ -13,9 +13,17 @@
 .blankspace {
   padding: 7rem 6.25rem 7rem 20rem;
 }
+
+/* PRODUCTS */
+
 .products {
   background-color: #f7f7f7;
-  margin-bottom: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
 }
 .products__heading {
   text-align: center;
@@ -23,16 +31,42 @@
 }
 .card {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 76%;
 }
 .products__card {
-  border-color: rgba(0, 0, 0, 0.25);
-  margin: 50px;
-  padding: 120px 60px 100px 80px;
-  border-radius: 10px;
-  width: 330px;
-  height: 440px;
-  box-shadow: 0 5px 9px -1px;
+  margin: 1.25rem;
+  border-radius: 0.625rem;
+  width: 20.625rem;
+  height: 36.25rem;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.products__card--color {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 2rem 1rem 0rem 1rem;
+}
+.products__card__heading {
+  font-size: 2rem;
+}
+.products__card__content {
+  color: #909090;
+}
+.products__card__price {
+  color: #5bacc3;
+  font-size: 2.06rem;
+  font-weight: 600;
+  margin: 0;
+}
+.products__image {
+  height: 80%;
+  padding: 5rem 1rem 0rem 1rem;
 }
 .products__card__button {
   display: flex;
@@ -46,13 +80,41 @@
   width: 180px;
   padding: 20px;
 }
-.products__card__price {
-  color: #5bacc3;
-  font-size: 2.06rem;
-  font-weight: 600;
+
+/* DIFFERENT SECTION  */
+.diff {
+  padding: 5%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
 }
+.diff__content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.diff__image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/coldbrewbackground.png);
+  background-size: cover;
+  padding: 20px;
+  /* border: 0.5rem solid #5bacc3; */
+  position: relative;
+}
+.diff__content-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.diff__content-icon {
+  height: 3rem;
+}
+/* DISCOUNT  */
 .discount {
-  margin: 130px 40px;
+  margin: 8.125rem 2.5rem;
   display: flex;
   justify-content: center;
 }
@@ -69,24 +131,27 @@
 .discount__box span {
   font-weight: 800;
 }
+/* FOOTER  */
 .footer {
   background-color: #fff0ed;
 }
 .footer__box {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .footer__address {
-  padding: 50px 160px;
+  padding: 3.125rem 10rem;
 }
 .footer__hours {
-  padding-right: 160px;
+  padding-right: 10rem;
 }
 .footer__social {
-  padding-left: 30px;
+  padding-left: 1.875rem;
+  padding-right: 5rem;
 }
 .footer__social img {
-  width: 50px;
+  width: 3.125rem;
 }
 .footer__hours__para {
   font-weight: bold;

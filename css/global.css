@@ -23,40 +23,45 @@ p {
   font-weight: 400;
   background-color: #fff0ed;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 .navigation img {
   width: auto;
 }
 .navigation__box {
   display: flex;
-  justify-content: space-evenly;
+}
+.navigation__box a {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+.navigation__heading {
+  text-decoration: none;
+  color: black;
+}
+.navigation__heading h2 {
+  margin: 0;
 }
 .navigation__list {
   list-style-type: none;
   text-decoration: underline;
-  display: flex;
-  align-items: center;
-  width: 100%;
 }
 .navigation__list--link {
   padding: 20px;
   text-decoration: none;
+  display: inline-block;
 }
 
-.navigation__list--color {
-  color: #5bacc3;
-
-  text-decoration: none;
-}
-.navigation--text {
+.navigation__text {
   text-decoration: none;
   cursor: pointer;
   color: black;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-/* to match the mockup to nearest possible. Style guide instructons doesn't match the mockup. */
-.navigation h2 {
-  font-size: 2.5rem;
-  color: black;
+.navigation__list--link a:hover {
+  color: #5bacc3;
 }

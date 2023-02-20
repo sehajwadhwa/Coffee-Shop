@@ -14,27 +14,25 @@
   <body>
     <header>
       <nav class="navigation">
-        <a href="./index.html"
-          ><img
-            src="./assets/coffee-beans-logo-and-footer.svg"
-            alt="coffee bean logo"
-        /></a>
-        <a class="navigation--text" href="./index.html"><h2>nitro</h2></a>
         <div class="navigation__box">
-          <ul class="navigation__list">
-            <li class="navigation__list--link">
-              <a class="navigation--text" href="./index.html">ABOUT</a>
-            </li>
-            <li class="navigation__list--link">
-              <a class="navigation--text" href="./pages/menu.html">MENU</a>
-            </li>
-            <li class="navigation__list--link">
-              <a class="navigation__list--color" href="./pages/menu.html"
-                >SHOP NOW</a
-              >
-            </li>
-          </ul>
+          <a href="./index.html"
+            ><img
+              src="./assets/coffee-beans-logo-and-footer.svg"
+              alt="coffee bean logo"
+          /></a>
+          <a class="navigation__heading" href="./index.html"><h2>nitro</h2></a>
         </div>
+        <ul class="navigation__list">
+          <li class="navigation__list--link">
+            <a class="navigation__text" href="./index.html">ABOUT</a>
+          </li>
+          <li class="navigation__list--link">
+            <a class="navigation__text" href="./pages/menu.html">MENU</a>
+          </li>
+          <li class="navigation__list--link">
+            <a class="navigation__text" href="./pages/menu.html">SHOP NOW</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="main">
@@ -54,34 +52,73 @@
 
     <section class="products">
       <h2 class="products__heading">Our Products</h2>
-      <div class="card">
+      <article class="card">
         <div class="products__card">
           <div class="products__image">
             <img src="./assets/coffeebeans.png" alt="coffee beans" />
           </div>
-          <h3 class="products__card__heading">Coffee Beans</h3>
-          <p class="products__card__price">$18.99</p>
+          <div class="products__card--color">
+            <h3 class="products__card__heading">Coffee Beans</h3>
+            <div class="products__card__content">
+              <p>Pack of 3</p>
+              <p class="products__card__price">$19</p>
+            </div>
+          </div>
         </div>
+
         <div class="products__card">
           <div class="products__image">
             <img src="./assets/coldbrew.png" alt="cold brew" />
           </div>
-          <h3 class="products__card__heading">Cold Brew</h3>
-          <p class="products__card__price">$4.99</p>
+          <div class="products__card--color">
+            <h3 class="products__card__heading">Cold Brew</h3>
+            <div class="products__card__content">
+              <p>1 can</p>
+              <p class="products__card__price">$5</p>
+            </div>
+          </div>
         </div>
         <div class="products__card">
           <div class="products__image">
             <img src="./assets/inhousebrew.png" alt="in-house brew" />
           </div>
-          <h3 class="products__card__heading">In-House Brew</h3>
-          <p class="products__card__price">$2.99</p>
+          <div class="products__card--color">
+            <h3 class="products__card__heading">In-House Brew</h3>
+            <div class="products__card__content">
+              <p>1cup</p>
+              <p class="products__card__price">$3</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </article>
       <div class="products__card__button">
         <button class="button">VIEW ALL</button>
       </div>
     </section>
-
+  </section>
+  <section class="diff">
+    <div class="diff__content">
+      <h2 class="diff__title">We're Different</h2>
+      <p class="diff__text">
+        We grow and roast our own beans. Every bean, every cup, 
+        every step of the way, we strive for excellence.
+      </p>
+      <div class="diff__content-icons">
+        <img src="./assets/planting.svg" 
+        alt="coffee-plant-icon" class="diff__content-icon icon">
+        <img src="./assets/coffee-beans.svg" 
+        alt="coffee-bean-icon" class="diff__content-icon icon">
+        <img src="./assets/coffee-cup.svg" 
+        alt="coffee-cup-icon" class="diff__content-icon icon">
+      </div>
+      <a href="./pages/menu.html" class="button">LEARN MORE</a>
+    </div>
+    <div class="diff__image">
+      <img src="./assets/tiltedcan.png" 
+      alt="tilted-can-picture" 
+      class="image">
+    </div>
+  </section>
     <section class="discount">
       <div class="discount__box">
         <p>Get 20% off your first order with code: <span> FirstNitro</span></p>

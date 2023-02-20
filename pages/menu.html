@@ -14,27 +14,31 @@
   <body>
     <header>
       <nav class="navigation">
-        <a href="../index.html"
-          ><img
-            src="../assets/coffee-beans-logo-and-footer.svg"
-            alt="coffee bean logo"
-        /></a>
-        <a class="navigation--text" href="../index.html"><h2>nitro</h2></a>
+        <div class="navigation__box">
+          <a href="../index.html"
+            ><img
+              src="../assets/coffee-beans-logo-and-footer.svg"
+              alt="coffee bean logo"
+          /></a>
+          <a class="navigation__heading" href="../index.html"><h2>nitro</h2></a>
+        </div>
         <ul class="navigation__list">
           <li class="navigation__list--link">
-            <a class="navigation--text" href="../index.html">ABOUT</a>
+            <a class="navigation__text" href="../index.html">ABOUT</a>
           </li>
           <li class="navigation__list--link">
-            <a class="navigation--text" href="./menu.html">MENU</a>
+            <a class="navigation__text" href="./menu.html">MENU</a>
           </li>
           <li class="navigation__list--link">
-            <a class="navigation__list--color" href="./menu.html">SHOP NOW</a>
+            <a class="navigation__text" href="./menu.html">SHOP NOW</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <h1 class="main--title">MENU</h1>
+      <div class="main__title-box">
+        <h1 class="main__title">MENU</h1>
+      </div>
     </main>
     <section class="drinks">
       <ul class="drinks__list">
@@ -50,7 +54,7 @@
       </ul>
     </section>
     <article class="hotdrinks">
-      <h2>Hot Drinks</h2>
+      <h2 class="hotdrinks__heading">Hot Drinks</h2>
       <h3 class="drinks__type">In-house brew</h3>
       <p class="drinks__type__description">
         Our in-house medium roast is a classic balance between sweet vanilla,
@@ -67,7 +71,7 @@
       <p class="drinks__type__price">$4.99</p>
     </article>
     <article class="colddrinks">
-      <h2>Cold Drinks</h2>
+      <h2 class="colddrinks__heading">Cold Drinks</h2>
       <h3 class="drinks__type">Cold brew</h3>
       <p class="drinks__type__description">
         Our bright and delicious coffee blend, brewed over ice to give you a
@@ -85,7 +89,7 @@
       <p class="drinks__type__price">$6.99</p>
     </article>
     <article class="pastries">
-      <h2>Pastries</h2>
+      <h2 class="pastries__heading">Pastries</h2>
       <h3 class="drinks__type">Bacon Oatmeal Raisin Cookie</h3>
       <p class="drinks__type__description">
         An infused bacon, sugar and egg mixture is folded into a perfect blend

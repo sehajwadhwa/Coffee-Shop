@@ -10,18 +10,24 @@
   display: flex;
   justify-content: center;
 }
-.main--title {
-  width: 25vw;
+.main__title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__title {
+  width: 18vw;
   height: 20vh;
   background-color: #393939;
   color: #fff;
   text-align: center;
-  margin: 0;
+  vertical-align: middle;
+  padding: 2rem 1rem 1rem 1rem;
 }
 .drinks {
   background-color: #393939;
   width: 100%;
-  height: 3rem; /*  defined by style guide*/
+  height: 3rem; /*defined by style guide*/
   color: #fff;
   display: flex;
   justify-content: center;
@@ -37,6 +43,12 @@
 .drinks__list--align {
   padding: 0.75rem;
   border-left: solid #5bacc3 0.25rem;
+}
+.hotdrinks__heading,
+.colddrinks__heading,
+.pastries__heading {
+  margin: 0;
+  padding-top: 1rem;
 }
 
 .hotdrinks,
@@ -56,6 +68,8 @@
 }
 .drinks__type__price {
   color: #5bacc3;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 .colddrinks {
   text-align: center;
